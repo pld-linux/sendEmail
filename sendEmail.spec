@@ -1,8 +1,9 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	Utility to send e-mail written in perl
 Summary(pl):	Narzêdzie do wysy³ania poczty napisane w perlu
 Name:		sendEmail
 Version:	1.33
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://caspian.dotconf.net/menu/Software/SendEmail/%{name}-v%{version}.tar.gz
@@ -35,12 +36,10 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sbindir}
 install sendEmail $RPM_BUILD_ROOT%{_sbindir}/sendEmail
 
-gzip -9nf CHANGELOG README TODO
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc CHANGELOG README TODO
 %attr(755,root,root) %{_sbindir}/*
