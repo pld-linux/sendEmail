@@ -8,7 +8,6 @@ License:	GPL
 Group:		Networking/Utilities
 Source0:	http://caspian.dotconf.net/menu/Software/SendEmail/%{name}-v%{version}.tar.gz
 URL:		http://marvin.criadvantage.com/caspian/
-Requires:	perl
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -33,8 +32,8 @@ Linuksa.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_sbindir}
-install sendEmail $RPM_BUILD_ROOT%{_sbindir}/sendEmail
+
+install -D sendEmail $RPM_BUILD_ROOT%{_sbindir}/sendEmail
 
 %clean
 rm -rf $RPM_BUILD_ROOT
