@@ -10,6 +10,7 @@ Source0:	http://caspian.dotconf.net/menu/Software/SendEmail/%{name}-v%{version}.
 # Source0-md5:	efb7ad3b4d701b9b3f8238aed01219db
 # Source0-size:	22093
 URL:		http://marvin.criadvantage.com/caspian/
+BuildArch:      noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
