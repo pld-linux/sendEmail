@@ -7,6 +7,7 @@ Release:	1
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://caspian.dotconf.net/menu/Software/SendEmail/%{name}-v%{version}.tar.gz
+# Source0-md5:	f5fd20b8696d65dda60c12ca9f5a093c
 URL:		http://marvin.criadvantage.com/caspian/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
