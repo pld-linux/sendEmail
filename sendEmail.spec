@@ -9,7 +9,7 @@ Group:		Networking/Utilities
 Source0:	http://caspian.dotconf.net/menu/Software/SendEmail/%{name}-v%{version}.tar.gz
 # Source0-md5:	efb7ad3b4d701b9b3f8238aed01219db
 URL:		http://marvin.criadvantage.com/caspian/
-BuildArch:      noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
