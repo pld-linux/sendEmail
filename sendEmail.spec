@@ -22,6 +22,15 @@ simple interface, making it very easy to install and use. It should
 work on any platform that has Perl and supports Unix sockets, but was
 designed for Linux.
 
+%description -l pl
+SendEmail to ma³e narzêdzie napisane w Perlu, s³u¿±ce do wysy³ania
+poczty po SMTP z terminala. Zosta³o opracowane do u¿ytku w skryptach
+pow³oki, programach w Perlu i stronach WWW. Nie wymaga ¿adnych
+specjalnych modu³ów i ma prosty interfejs, co sprawia, ¿e jest ³atwy
+do zainstalowania i u¿ytku. Powinien dzia³aæ na ka¿dej platformie,
+która ma Perla i obs³uguje gniazda uniksowe, ale zosta³ stworzony dla
+Linuksa.
+
 %prep
 %setup -q -n %{name}-v%{version}
 
