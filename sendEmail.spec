@@ -2,7 +2,7 @@
 Summary:	Utility to send e-mail written in perl
 Summary(pl):	Narzêdzie do wysy³ania poczty napisane w perlu
 Name:		sendEmail
-Version:	1.40
+Version:	1.41
 Release:	1
 License:	GPL
 Group:		Networking/Utilities
