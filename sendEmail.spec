@@ -9,6 +9,7 @@ Group:		Networking/Utilities
 Source0:	http://caspian.dotconf.net/menu/Software/SendEmail/%{name}-v%{version}.tar.gz
 # Source0-md5:	a11696e8b81ca628168aae7ac2b0586a
 URL:		http://marvin.criadvantage.com/caspian/
+BuildRequires:	rpm-perlprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
