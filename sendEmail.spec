@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Utility to send e-mail written in Perl
-Summary(pl.UTF-8):   Narzędzie do wysyłania poczty napisane w Perlu
+Summary(pl.UTF-8):	Narzędzie do wysyłania poczty napisane w Perlu
 Name:		sendEmail
 Version:	1.55
 Release:	1
