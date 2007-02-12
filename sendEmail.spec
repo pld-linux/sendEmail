@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Utility to send e-mail written in Perl
-Summary(pl):	NarzÍdzie do wysy≥ania poczty napisane w Perlu
+Summary(pl.UTF-8):   Narzƒôdzie do wysy≈Çania poczty napisane w Perlu
 Name:		sendEmail
 Version:	1.55
 Release:	1
@@ -21,13 +21,13 @@ simple interface, making it very easy to install and use. It should
 work on any platform that has Perl and supports Unix sockets, but was
 designed for Linux.
 
-%description -l pl
-SendEmail to ma≥e narzÍdzie napisane w Perlu, s≥uø±ce do wysy≥ania
-poczty po SMTP z terminala. Zosta≥o opracowane do uøytku w skryptach
-pow≥oki, programach w Perlu i stronach WWW. Nie wymaga øadnych
-specjalnych modu≥Ûw i ma prosty interfejs, co sprawia, øe jest ≥atwy
-do zainstalowania i uøytku. Powinien dzia≥aÊ na kaødej platformie,
-ktÛra ma Perla i obs≥uguje gniazda uniksowe, ale zosta≥ stworzony dla
+%description -l pl.UTF-8
+SendEmail to ma≈Çe narzƒôdzie napisane w Perlu, s≈Çu≈ºƒÖce do wysy≈Çania
+poczty po SMTP z terminala. Zosta≈Ço opracowane do u≈ºytku w skryptach
+pow≈Çoki, programach w Perlu i stronach WWW. Nie wymaga ≈ºadnych
+specjalnych modu≈Ç√≥w i ma prosty interfejs, co sprawia, ≈ºe jest ≈Çatwy
+do zainstalowania i u≈ºytku. Powinien dzia≈Çaƒá na ka≈ºdej platformie,
+kt√≥ra ma Perla i obs≈Çuguje gniazda uniksowe, ale zosta≈Ç stworzony dla
 Linuksa.
 
 %prep
