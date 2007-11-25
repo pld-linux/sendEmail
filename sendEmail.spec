@@ -3,11 +3,12 @@ Summary:	Utility to send e-mail written in Perl
 Summary(pl.UTF-8):	Narzędzie do wysyłania poczty napisane w Perlu
 Name:		sendEmail
 Version:	1.55
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://caspian.dotconf.net/menu/Software/SendEmail/%{name}-v%{version}.tar.gz
 # Source0-md5:	b4764595e4e1d777b9a6c09a8da6a3e0
+Patch0:		%{name}-get_hostname.patch
 URL:		http://caspian.dotconf.net/menu/Software/SendEmail/
 BuildRequires:	rpm-perlprov
 BuildArch:	noarch
@@ -32,6 +33,7 @@ Linuksa.
 
 %prep
 %setup -q -n %{name}-v%{version}
+%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
