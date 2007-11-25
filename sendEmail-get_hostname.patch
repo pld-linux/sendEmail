@@ -1,0 +1,12 @@
+diff -Nur sendEmail-v1.55.org/sendEmail sendEmail-v1.55/sendEmail
+--- sendEmail-v1.55.org/sendEmail	2006-12-14 03:05:33.000000000 +0000
++++ sendEmail-v1.55/sendEmail	2007-11-25 19:22:46.051797559 +0000
+@@ -1021,7 +1021,7 @@
+     ## If that didn't get us a hostname, try a few other things
+     else {
+         ## Windows systems
+-        if ($^O !~ /win/i) {
++        if ($^O =~ /win/i) {
+             if ($ENV{'COMPUTERNAME'}) { $hostname = $ENV{'COMPUTERNAME'}; }
+             if (!$hostname) { $hostname = gethostbyname('localhost'); }
+             if (!$hostname) { chomp($hostname = `hostname 2> NUL`) };
